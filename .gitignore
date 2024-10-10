@@ -1,0 +1,47 @@
+# Binaries for programs and Go toolchain
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Output of build process
+create-project
+create-project.exe
+
+# Go vendor dependencies
+/vendor/
+Gopkg.lock
+Gopkg.toml
+
+# Go specific
+*.test
+*.out
+*.log
+go.sum
+
+# Dependency directories (empty by default. Vendor dirs are generated)
+vendor/
+
+# If you're using an IDE or editor, add relevant directories/files
+# Example for Visual Studio Code
+.vscode/
+.vscode/*
+
+# Example for JetBrains (GoLand, IntelliJ)
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# MacOS files
+.DS_Store
+
+# Windows files
+*.lnk
